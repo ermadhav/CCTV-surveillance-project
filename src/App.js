@@ -2,8 +2,7 @@ import React from "react";
 import Sidebar from "./components/Sidebar";
 import LicensePlateRow from "./components/LicensePlateRow";
 import Event from "./components/Event";
-// import Card from "./components/Card";
-import "./styles.css"; // Ensure this is imported
+import "./styles.css"; 
 
 const App = () => (
   <div className="flex w-full min-h-screen bg-gray-100">
@@ -11,7 +10,6 @@ const App = () => (
     <div className="main p-6 w-full">
       <h1 className="text-3xl font-bold mb-6">Live Surveillance</h1>
 
-      {/* Live Surveillance Cards - Match Recent Events Section */}
       <div className="surveillance-container">
         <div className="card">
           <h2>Active Cameras</h2>
@@ -64,7 +62,6 @@ const App = () => (
         License Plate Detection
       </h2>
 
-      {/* License Plate Table - Full Width */}
       <table className="w-full bg-white rounded-lg shadow">
         <thead>
           <tr className="text-left border-b">
