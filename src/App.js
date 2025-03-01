@@ -2,7 +2,7 @@ import React from "react";
 import Sidebar from "./components/Sidebar";
 import LicensePlateRow from "./components/LicensePlateRow";
 import Event from "./components/Event";
-import Card from "./components/Card";
+// import Card from "./components/Card";
 import "./styles.css"; // Ensure this is imported
 
 const App = () => (
