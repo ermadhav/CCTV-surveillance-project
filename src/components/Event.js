@@ -1,4 +1,3 @@
-// src/Event.js
 import React from 'react';
 
 const Event = ({ icon, title, description }) => (

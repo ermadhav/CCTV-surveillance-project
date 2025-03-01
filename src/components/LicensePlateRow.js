@@ -1,4 +1,3 @@
-// src/LicensePlateRow.js
 import React from 'react';
 
 const LicensePlateRow = ({ plate, model, color, status, gate }) => (
