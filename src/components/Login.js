@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import 'tailwindcss/tailwind.css';
 import '@fortawesome/fontawesome-free/css/all.min.css';
 
-function App() {
+const Login = () => {
     const [passwordVisible, setPasswordVisible] = useState(false);
 
     const togglePasswordVisibility = () => {
@@ -66,4 +66,4 @@ function App() {
     );
 }
 
-export default App;
+export default Login;

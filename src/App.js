@@ -2,11 +2,13 @@ import React from "react";
 import Sidebar from "./components/Sidebar";
 import LicensePlateRow from "./components/LicensePlateRow";
 import Event from "./components/Event";
+import Login from "./components/Login";
 import "./styles.css"; 
 
 const App = () => (
   <div className="flex w-full min-h-screen bg-gray-100">
     <Sidebar />
+    <Login />
     <div className="main p-6 w-full">
       <h1 className="text-3xl font-bold mb-6">Live Surveillance</h1>
 
